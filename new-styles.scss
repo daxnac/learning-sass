@@ -1,18 +1,35 @@
+$default-margin: 3rem auto;
+$accent: #3a612d;
+$highlight: pink;
+$brand: #2d5461;
+
+@mixin higlighted {
+  background-color: $highlight;
+  padding: 1rem;
+}
+
+@mixin bordered ($color) {
+  border: 3px solid $color;
+  margin: 1rem;
+}
+
+
 body {
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
+  box-sizing: border-boxboc;
   color: #2D5461;
   font-family: Helvetica, "Trebuchet MS", Verdana, sans-serif;
 }
 
 .cta-container {
-  margin: 1rem auto;
+  margin: $default-margin;
   padding: 0 1rem;
   display: flex;
   flex-flow: row wrap;
   justify-content: space-around;
   align-items: center;
+  @include bordered(red);
 }
 
 .cta {
@@ -25,6 +42,13 @@ body {
   box-shadow: gray 3px 3px 8px;
   background-color: #C0FABE;
   margin: 1rem;
+  img {
+    max-width: 300px;
+  }
+  a, a:visited, a:hover, a:focus {
+    color: $brand;
+    text-decoration: none;
+  }
 }
 
 .cta a {
@@ -34,11 +58,6 @@ body {
 
 .cta img {
   max-width: 300px;
-}
-
-footer {
-  background-color: #D2F0FA;
-  padding: 1rem;
 }
 
 ul li a:nth-of-type(2) {
