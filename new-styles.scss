@@ -3,7 +3,7 @@ body {
   padding: 0;
   box-sizing: border-box;
   color: #2D5461;
-  font-family: Helvetica, "Trebuchet MS", Verdana, sans-serif;;
+  font-family: Helvetica, "Trebuchet MS", Verdana, sans-serif;
 }
 
 .cta-container {
@@ -27,6 +27,11 @@ body {
   margin: 1rem;
 }
 
+.cta a {
+  text-decoration: none;
+  color: #2D5461;
+}
+
 .cta img {
   max-width: 300px;
 }
@@ -34,4 +39,24 @@ body {
 footer {
   background-color: #D2F0FA;
   padding: 1rem;
+}
+
+ul li a:nth-of-type(2) {
+  color: #3A612D;
+  text-decoration: none;
+}
+
+article section:nth-child(2) h2 {
+  text-align: center;
+  font-weight: 900;
+}
+form input:nth-child(2) {
+  border-radius: 5px;
+  background-color: #3A612D;
+  color: white;
+  padding: 5px;
+}
+
+article:nth-child(2) h2:nth-child(2) {
+  background-color: #D2F0FA;
 }

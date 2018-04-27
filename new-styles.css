@@ -1,0 +1,74 @@
+body {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  color: #2D5461;
+  font-family: Helvetica, "Trebuchet MS", Verdana, sans-serif; }
+
+.cta-container {
+  margin: 1rem auto;
+  padding: 0 1rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row wrap;
+          flex-flow: row wrap;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center; }
+
+.cta {
+  text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column nowrap;
+          flex-flow: column nowrap;
+  padding: 1rem;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: space-around;
+      -ms-flex-align: space-around;
+          align-items: space-around;
+  -webkit-box-shadow: gray 3px 3px 8px;
+          box-shadow: gray 3px 3px 8px;
+  background-color: #C0FABE;
+  margin: 1rem; }
+
+.cta a {
+  text-decoration: none;
+  color: #2D5461; }
+
+.cta img {
+  max-width: 300px; }
+
+footer {
+  background-color: #D2F0FA;
+  padding: 1rem; }
+
+ul li a:nth-of-type(2) {
+  color: #3A612D;
+  text-decoration: none; }
+
+article section:nth-child(2) h2 {
+  text-align: center;
+  font-weight: 900; }
+
+form input:nth-child(2) {
+  border-radius: 5px;
+  background-color: #3A612D;
+  color: white;
+  padding: 5px; }
+
+article:nth-child(2) h2:nth-child(2) {
+  background-color: #D2F0FA; }
+
+/*# sourceMappingURL=new-styles.css.map */
